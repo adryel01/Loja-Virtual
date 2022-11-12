@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+header {
+    width: 100%;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.logo-loja {
+    padding-left: 20px;
+    height: 100px;
+}
+
+.menu-navegacao {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.link-menu-navegacao {
+    color: white;
+}
+
+.section-banner {
+    width: 100%;
+}
+
+.imagem-banner {
+    width: 100%;
+}
+
+
+.section-lista-de-camisetas ,.section-lista-de-moletom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Permanent Market', cursive;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.lista-de-produtos-camisetas ,.lista-de-produtos-moletom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    padding: 10px;
+}
+
+.item-lista-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 15px 10px;
+    box-shadow: 0px 5px 20px lightgray;
+    border-radius: 10px;
+    height: 450px;
+}
+
+
+.item-lista-produto:hover{
+    box-shadow: 0px 5px 20px black;
+    transition: 0.2s;
+}
+
+
+.imagem-produto {
+    height: 280px;
+}
+
+.nome-produto {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.valor-produto{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: red;
+}
+
+.button-add-cart{
+    background-color: rgb(75, 180, 140);
+    height: 40px;
+    width: 80%;
+    min-width: 200px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-add-cart:hover{
+    height: 45px;
+    width: 85%;
+    transition: 0.3s;
+    margin-top: -5px;
+}
