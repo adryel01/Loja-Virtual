@@ -1,13 +1,13 @@
 
 let produtos = [];
 
-let imgBanner = '/assets/img/banner-cz10';
-let img1 = '/assets/img/camiseta-cataratas-cz10.jpg';
-let img2 = '/assets/img/camiseta-pipoca-cz10.jpg';
-let img3 = '/assets/img/camiseta-pokemon-cz10.jpg';
-let img4 = '/assets/img/moletom-cobrakai-cz10.jpg';
-let img5 = '/assets/img/moletom-hellfire-cz10.jpg';
-let img6 = '/assets/img/moletom-kratos-cz10.jpg';
+let imgBanner = './assets/img/banner-cz10';
+let img1 = './assets/img/camiseta-cataratas-cz10.jpg';
+let img2 = './assets/img/camiseta-pipoca-cz10.jpg';
+let img3 = './assets/img/camiseta-pokemon-cz10.jpg';
+let img4 = './assets/img/moletom-cobrakai-cz10.jpg';
+let img5 = './assets/img/moletom-hellfire-cz10.jpg';
+let img6 = './assets/img/moletom-kratos-cz10.jpg';
 
 function criaProdutos(linkImagem, nomeDoProduto, valorDoProduto, tipoDoProduto, id, produtoDescricao) {
     let produto = {
